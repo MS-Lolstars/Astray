@@ -3,7 +3,7 @@ function alg_Laura(dimension) {
     //field = growingtree.create(dimension, dimension, 20);
     //field.dimension = dimension;
     console.log('HALLO');
-    function iterate(field, x, y) {
+    function iterate(field, x, y) { 
         field[x][y] = false;
         while(true) {
             directions = [];
